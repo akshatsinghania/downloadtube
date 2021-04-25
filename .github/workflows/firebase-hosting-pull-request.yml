@@ -6,8 +6,9 @@ name: Deploy to Firebase Hosting on PR
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
-    env:
-      working-directory: ./client
+    defaults:
+      run:
+        working-directory: client
     steps:
       - uses: actions/checkout@v2
       - run: yarn build

@@ -6,9 +6,11 @@ name: Deploy to Firebase Hosting on PR
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
+    env:
+      working-directory: ./client
     steps:
       - uses: actions/checkout@v2
-      - run: cd client & yarn build
+      - run: yarn build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import { downloadVideo } from '../../api/downloader/Downloader';
-import { Link } from 'react-router-dom';
 
 const Style = styled.div`
 	.videoInput {

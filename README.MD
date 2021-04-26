@@ -2,12 +2,12 @@
 
 ## View downloadtube
 
-[downloadtube-free.web.app]("https://downloadtube-free.web.app")
+[downloadtube-free.web.app](https://downloadtube-free.web.app)
 
 ### backend
 
 Hosted on heroku
-[downloadtube-api.herokuapp.com]("https://downloadtube-api.herokuapp.com")
+[downloadtube-api.herokuapp.com](https://downloadtube-api.herokuapp.com)
 
 #
 
